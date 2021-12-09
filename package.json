@@ -1,0 +1,22 @@
+{
+  "name": "twitee-frontend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@chakra-ui/react": "^1.7.2",
+    "@emotion/react": "^11",
+    "@emotion/styled": "^11",
+    "@fontsource/open-sans": "^4.5.2",
+    "@hookform/resolvers": "^2.8.4",
+    "@netlify/plugin-nextjs": "^3.9.2",
+    "axios": "^0.24.0",
+    "framer-motion": "^4",
+    "next": "^12.0.7",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-hook-form": "^7.21.0",
+    "react-query": "^3.34.0",
+    "yup": "^0.32.11"
+  }
+}
