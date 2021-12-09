@@ -1,0 +1,22 @@
+{
+	"compilerOptions": {
+	  "module": "commonjs",
+	  "target": "es6",
+	  "checkJs": true,
+	  "jsx": "react-jsx",
+	  "resolveJsonModule": true,
+	  "baseUrl": ".",
+	  "paths": {
+		"src/*": ["src/*"],
+		"@components/*": ["src/components/*"],
+		"@lib/*": ["src/lib/*"],
+		"@utils/*": ["src/utils/*"],
+		"@layouts/*": ["src/layouts/*"],
+		"@asset/*": ["src/asset/*"],
+		"@css/*": ["styles/*"]
+	  }
+	},
+	"include": ["**/*.js", "**/*.jsx"],
+	"exclude": ["node_modules"]
+  }
+  
